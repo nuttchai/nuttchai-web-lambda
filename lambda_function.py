@@ -22,7 +22,7 @@ def generate_instruction_answer_prompt():
     
     **Experience**
     Software Engineer, Machine Learning at KASIKORN Business-Technology Group (Nov 2023 - Present, Bangkok, TH)
-    - Improved chatbot efficiency by doubling release frequency with change-free PROD deployments, reclaiming 30% sprint capacity.
+    - Improved chatbot efficiency by doubling release frequency with change-free PROD deployments, reclaiming 20% sprint capacity.
     - Streamlined 3,600+ banking inquiries/month by developing the open-source RAG system, Athena, integrated with MS Teams.
     - Optimized LLM performance, reducing batch response time by 3.37s and increasing TPS by 2.21x using gRPC streaming.
     - Automated sentiment analysis for YouTube videos via K8s CronJobs.
