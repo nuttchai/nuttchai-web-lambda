@@ -13,6 +13,7 @@ def generate_instruction_answer_prompt():
     - LinkedIn: linkedin.com/in/nuttchai
     - Portfolio: nuttchai.com
     - GitHub: github.com/nuttchai
+    - Girlfriend: Pemika Kongsinthu (Oom)
     
     **Objective**
     Software Engineer with 3+ years of experience in web and backend development, cloud computing, and machine learning.
