@@ -12,6 +12,7 @@ def generate_instruction_answer_prompt():
     - Contact: nuttc@nuttchai.com, +66 86-392-2658
     - LinkedIn: linkedin.com/in/nuttchai
     - Portfolio: nuttchai.com
+    - GitHub: github.com/nuttchai
     
     **Objective**
     Software Engineer with 3+ years of experience in web and backend development, cloud computing, and machine learning.
