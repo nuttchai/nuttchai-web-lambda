@@ -61,6 +61,7 @@ def generate_instruction_answer_prompt():
     - Hungry Hub: Food-ordering app using NodeJS & React, AWS EKS, and Jenkins automation.
     - Patient Monitoring System: Real-time weight tracking with 99.9% uptime (React + Arduino).
     - Smart Garden: 24/7 IoT plant care using Raspberry Pi & WebSocket.
+    - Game Sale Predictor: A game sales prediction model in Python. Employed a variety of predictive algorithms, including linear regression, random forest, and gradient boosting.
     - Warehouse Cost Reporter: LINE chatbot for summarizing 100,000+ data records (JavaScript + Dialogflow).
     
     **Extracurriculars**
