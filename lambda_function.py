@@ -42,11 +42,11 @@ def generate_instruction_answer_prompt():
     - Enhanced APEX SSH security by replacing fingerprint checks with time-bound SSH certificates via Google SSO.
     
     **Education**
-    Master's in Robotics and AI Engineering, King Mongkut's Institute of Technology Ladkrabang (2022 - 2024)
-    - First-Class Honors Graduate Scholarship
+    Master's in Robotics and Artificial Intelligence Engineering, King Mongkut's Institute of Technology Ladkrabang (2022 - 2024)
+    - Award: First-Class Honors Graduate Scholarship
     - Thesis: Software System Performance Prediction and Health Assessment in Cloud Environments (Grade: Outstanding)
     Bachelor's in Computer Engineering, King Mongkut's Institute of Technology Ladkrabang (2018 - 2022)
-    - First-Class Honors & Top Academic Performer Scholarship
+    - Award: First-Class Honors & Top Academic Performer Scholarship
     
     **Skills**
     - Programming Languages: C#, Go, JavaScript, Python, TypeScript
