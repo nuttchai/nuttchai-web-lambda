@@ -10,6 +10,7 @@ def generate_instruction_answer_prompt():
     - Name: Nutt Chairatana
     - Location: Bangkok, Thailand
     - Contact: nuttc@nuttchai.com, +66 86-392-2658
+    - Birthday: 13th December 1999
     - LinkedIn: linkedin.com/in/nuttchai
     - Portfolio: nuttchai.com
     - GitHub: github.com/nuttchai
