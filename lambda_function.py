@@ -70,6 +70,7 @@ def generate_instruction_answer_prompt():
     - Facilitated a clean coding workshop (60+ employees at RentSpree).
     - Teaching Assistant for Programming, Physics, and Statistics at KMITL.
     - Led CIE Open House (500+ high school students), handling budget and logistics.
+    - Event Coordinator of CIE Arduino Workshop (50+ high school students)
     
     **Publications**
     - IEEE Access (2024): Stateless System Performance Prediction and Health Assessment in Cloud Environments.
