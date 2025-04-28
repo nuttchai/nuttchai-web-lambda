@@ -23,23 +23,24 @@ def generate_instruction_answer_prompt():
     
     **Experience**
     Software Engineer, Machine Learning at KASIKORN Business-Technology Group (Nov 2023 - Present, Bangkok, TH)
-    - Improved chatbot efficiency by doubling release frequency with change-free PROD deployments, reclaiming 20% sprint capacity.
-    - Streamlined 3,600+ banking inquiries/month by developing the open-source RAG system, Athena, integrated with MS Teams.
-    - Optimized LLM performance, reducing batch response time by 3.37s and increasing TPS by 2.21x using gRPC streaming.
-    - Automated sentiment analysis for YouTube videos via K8s CronJobs.
-    - Reduced memory leaks by 84.7%, optimizing TensorFlow batch processing.
+    - Automated NLP training and release, saving $20.2k annually (reclaiming 20% sprint capacity), by using K8s Jobs and AWS EFS for shared model access in cluster
+    - Streamlined 3,600+ monthly banking inquiries by developing the open-source RAG system, Athena, integrated with MS Teams
+    - Initiated a high-throughput inference LLM pipeline utilizing gRPC server streaming with a leaky bucket rate limiter and asynchronous log to improve service latency by 3.37s and capacity by 2.21× over traditional REST, as confirmed by k6
+    - Automated YouTube video cues reviewing (saving 1.5 MD/week) using sentiment analysis triggered by K8s CronJob
+    - Reduced NLP memory leaks by 84.7% and response time by 31ms (88.8%), tracked via Python Profiler and k6, by revamping TensorFlow to process inputs as single batches to eliminate cache from input splitting
+    FYI, In KASIKORN Business-Technology Group, 1 MD costs 16k Baht
     Software Engineer at RentSpree (Jun 2022 - Oct 2023, Bangkok, TH)
-    - Boosted user input speed by 43% and Tenant Screening conversions by 4% via address auto-complete integration.
-    - Implemented a monorepo strategy for React hooks to enhance component reusability.
-    - Accelerated agent service response by 5.71x via database indexing.
-    - Led the transition from JavaScript to TypeScript, improving maintainability.
+    - Boosted input speed by 43% and Tenant Screening conversions by 4%, verified by Amplitude, by adding address auto-complete
+    - Streamlined web component reusability across projects by promoting a mono repository for React hooks
+    - Accelerated agent service response by 5.71x, as measured by k6, by implementing database indexing
+    - Led the transition of JavaScript projects to TypeScript to enhance codebase quality and maintainability
     Software Engineer Intern at CMKL University (Dec 2021 - May 2022, Bangkok, TH)
-    - Designed, implemented, and deployed a system enabling 100+ students to track learning progress via mobile.
+    - Led the design, development, and deployment of a mobile learning platform utilized by 100+ CMKL students
     Software Engineer Intern at ExxonMobil (Jun 2021 - Nov 2021, Bangkok, TH)
-    - Automated SAP-to-MRMA compliance reports, reducing reporting time.
-    - Accelerated report extraction by 3x through template optimization and indexing.
-    Software Engineer Intern, Infrastructure at CMKL University (Jan 2021 - Mar 2021, Bangkok, TH)
-    - Enhanced APEX SSH security by replacing fingerprint checks with time-bound SSH certificates via Google SSO.
+    - Reduced compliance reporting time by automating SAP-to-MRMA data synchronization with Azure Durable Functions
+    - Accelerated calibration report extraction by 3x, verified by Azure App Insights, by refining templates and indexing queries
+    Junior Software Developer, Infrastructure at CMKL University (Jan 2021 - Mar 2021, Bangkok, TH)
+    - Strengthened APEX SSH security by replacing host fingerprint checks with time-bound SSH certificates via Google SSO
     
     **Education**
     Master's in Robotics and Artificial Intelligence Engineering, King Mongkut's Institute of Technology Ladkrabang (2022 - 2024)
@@ -67,10 +68,10 @@ def generate_instruction_answer_prompt():
     **Extracurriculars**
     - Instructor for Python ML Training (50+ participants in KMITL's BootCamp).
     - Lecturer for Software Testing (JMeter + Grafana + Prometheus).
-    - Facilitated a clean coding workshop (60+ employees at RentSpree).
+    - Facilitated a company-wide session for 60+ RentSpree engineers.
     - Teaching Assistant for Programming, Physics, and Statistics at KMITL.
     - Led CIE Open House (500+ high school students), handling budget and logistics.
-    - Event Coordinator of CIE Arduino Workshop (50+ high school students)
+    - Event Coordinator of CIE Arduino Workshop (50+ high school students).
     
     **Publications**
     - IEEE Access (2024): Stateless System Performance Prediction and Health Assessment in Cloud Environments.
