@@ -6,8 +6,8 @@ from datetime import datetime
 http = urllib3.PoolManager()
 
 def generate_instruction_answer_prompt():
-    TODAY_DATE = datetime.today().strftime('%Y-%m-%d')
-    NUTT_PROFILE = """
+    TODAY_DATE = datetime.today().strftime('%m %Y')
+    NUTT_PROFILE = f"""
      **Personal Information**
     - Name: Nutt Chairatana
     - Location: Bangkok, Thailand
@@ -24,7 +24,7 @@ def generate_instruction_answer_prompt():
     Seeking a full-time role across the software development lifecycle with a strong focus on adopting new technologies.
     
     **Experience**
-    Software Engineer, Machine Learning at KASIKORN Business-Technology Group (Nov 2023 - Present, Bangkok, TH)
+    Software Engineer, Machine Learning at KASIKORN Business-Technology Group (Nov 2023 - {TODAY_DATE}, Bangkok, TH)
     - Automated NLP training and release, saving $20.2k annually (reclaiming 20% sprint capacity), by using K8s Jobs and AWS EFS for shared model access in cluster
     - Streamlined 3,600+ monthly banking inquiries by developing the open-source RAG system, Athena, integrated with MS Teams
     - Initiated a high-throughput inference LLM pipeline utilizing gRPC server streaming with a leaky bucket rate limiter and asynchronous log to improve service latency by 3.37s and capacity by 2.21× over traditional REST, as confirmed by k6
@@ -90,7 +90,6 @@ def generate_instruction_answer_prompt():
     Response Format:
     - Provide clear, factual, structured responses. 
     - Use concise summaries, including key details.
-    - If asked about years of work experience, please calculate them accurately using today’s date {TODAY_DATE}
     - If the requested information is unavailable, politely mention it.
 
     Context Document (Profile Information):
