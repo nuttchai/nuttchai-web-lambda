@@ -6,6 +6,8 @@ from datetime import datetime
 http = urllib3.PoolManager()
 
 def generate_instruction_answer_prompt():
+    START_WORKING_YEARS = 2022
+    CURRENT_WORKING_YEARS = int(datetime.today().strftime('%Y'))
     TODAY_DATE = datetime.today().strftime('%m %Y')
     NUTT_PROFILE = f"""
      **Personal Information**
@@ -19,7 +21,7 @@ def generate_instruction_answer_prompt():
     - Girlfriend: Pemika Kongsinthu (Oom)
     
     **Objective**
-    Software Engineer with 3+ years of experience in web and backend development, cloud computing, and machine learning.
+    Software Engineer with {CURRENT_WORKING_YEARS-START_WORKING_YEARS}+ years of experience in web and backend development, cloud computing, and machine learning.
     Proven ability to deliver scalable solutions for over 3 million users.
     Seeking a full-time role across the software development lifecycle with a strong focus on adopting new technologies.
     
