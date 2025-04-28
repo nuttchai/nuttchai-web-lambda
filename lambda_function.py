@@ -69,15 +69,19 @@ def generate_instruction_answer_prompt():
     - Strengthened APEX SSH security by replacing host fingerprint checks with time-bound SSH certificates via Google SSO
     
     **Education**
-    Master's in Robotics and Artificial Intelligence Engineering, King Mongkut's Institute of Technology Ladkrabang (2022 - 2024)
+    Master's in Robotics and Artificial Intelligence Engineering, King Mongkut's Institute of Technology Ladkrabang
+    - Duration: 2022 - 2024
     - Award: First-Class Honors Graduate Scholarship
-    - Thesis: Software System Performance Prediction and Health Assessment in Cloud Environments (Grade: Outstanding)
-    Bachelor's in Computer Engineering, King Mongkut's Institute of Technology Ladkrabang (2018 - 2022)
-    - Award: First-Class Honors & Top Academic Performer Scholarship
+    - Thesis: Software System Performance Prediction and Health Assessment in Cloud Environments
+    - Grade: Outstanding (in Thesis Defense)
+    Bachelor's in Computer Engineering, King Mongkut's Institute of Technology Ladkrabang
+    - Duration: 2018 - 2022
+    - Award: Top Academic Performer Scholarship
+    - Grade: First-Class Honors (3.88/4.00 GPA)
     
     **Skills**
     - Programming Languages: C#, Go, JavaScript, Python, TypeScript
-    - Technologies: ASP.NET, AWS, Docker, GCP, gRPC, Kafka, Kubernetes, MongoDB, NestJS, OTel, PostgreSQL, React
+    - Technologies: ASP.NET, AWS, Docker, GCP, gRPC, Kafka, Kubernetes, MongoDB, NestJS, OTel, PostgreSQL, React, MCP, A2A, LangChain & LangGraph, Embedding
     
     **Achievements**
     - 4th Place in Cloud Ace Hackathon TH (GenAI ad solution based on preferences) (Jun 2024)
@@ -85,10 +89,12 @@ def generate_instruction_answer_prompt():
     
     **Projects**
     - Auto Attendance System: Python facial recognition for 30+ students in a single frame.
+    - Game Sale Predictor: A game sales prediction model in Python. Employed a variety of predictive algorithms, including linear regression, random forest, and gradient boosting.
     - Hungry Hub: Food-ordering app using NodeJS & React, AWS EKS, and Jenkins automation.
     - Patient Monitoring System: Real-time weight tracking with 99.9% uptime (React + Arduino).
+    - Personal Info QA Bot: Built a Retrieval-Augmented Generation chatbot for answering my personal information on AWS Lambda
     - Smart Garden: 24/7 IoT plant care using Raspberry Pi & WebSocket.
-    - Game Sale Predictor: A game sales prediction model in Python. Employed a variety of predictive algorithms, including linear regression, random forest, and gradient boosting.
+    - LLM Search Engine: Built a search tool with Google CSE and LLM to retrieve, summarize, and rank web content by semantic similarity
     - Warehouse Cost Reporter: LINE chatbot for summarizing 100,000+ data records (JavaScript + Dialogflow).
     
     **Extracurriculars**
@@ -100,11 +106,11 @@ def generate_instruction_answer_prompt():
     - Event Coordinator of CIE Arduino Workshop (50+ high school students).
     
     **Publications**
-    - IEEE Access (2024): Stateless System Performance Prediction and Health Assessment in Cloud Environments.
-    - iSAI-NLP (2023): Cloud Stateless Server Failover Prediction Using ML on System Metrics.
+    - "Cloud Stateless Server Failover Prediction Using Machine Learning on System Metrics," 18th ISAI-NLP, Bangkok, Thailand, 2023, DOI: 10.1109/iSAI-NLP60301.2023.10354585
+    - "Stateless System Performance Prediction and Health Assessment in Cloud Environments: Introducing C-SYSGUARD, an Ensemble Modeling Approach," in IEEE Access, vol. 12, 2024, DOI: 10.1109/ACCESS.2024.3406670
     
     **Certifications**
-    AWS Certified Solution Architect - Associate (Jan 2023)
+    - AWS Certified Solution Architect - Associate (Jan 2023)
     """
 
     SYSTEM_PROMPT = f"""
