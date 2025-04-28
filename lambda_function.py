@@ -65,7 +65,7 @@ def generate_instruction_answer_prompt():
     Software Engineer Intern at ExxonMobil (Jun 2021 - Nov 2021, Bangkok, TH)
     - Reduced compliance reporting time by automating SAP-to-MRMA data synchronization with Azure Durable Functions
     - Accelerated calibration report extraction by 3x, verified by Azure App Insights, by refining templates and indexing queries
-    Junior Software Developer, Infrastructure at CMKL University (Jan 2021 - Mar 2021, Bangkok, TH)
+    Software Developer Intern, Infrastructure at CMKL University (Jan 2021 - Mar 2021, Bangkok, TH)
     - Strengthened APEX SSH security by replacing host fingerprint checks with time-bound SSH certificates via Google SSO
     
     **Education**
