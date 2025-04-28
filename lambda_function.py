@@ -98,6 +98,7 @@ def generate_instruction_answer_prompt():
     - Warehouse Cost Reporter: LINE chatbot for summarizing 100,000+ data records (JavaScript + Dialogflow).
     
     **Extracurriculars**
+    - Guest Speaker to present my master research to professors at the Japan Advanced Institute of Science and Technology (JAIST)
     - Instructor for Python ML Training (50+ participants in KMITL's BootCamp).
     - Lecturer for Software Testing (JMeter + Grafana + Prometheus).
     - Facilitated a company-wide session for 60+ RentSpree engineers.
