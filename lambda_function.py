@@ -1,10 +1,12 @@
 import os
 import json
 import urllib3
+from datetime import datetime
 
 http = urllib3.PoolManager()
 
 def generate_instruction_answer_prompt():
+    TODAY_DATE = datetime.today().strftime('%Y-%m-%d')
     NUTT_PROFILE = """
      **Personal Information**
     - Name: Nutt Chairatana
@@ -86,12 +88,13 @@ def generate_instruction_answer_prompt():
     Retrieve relevant details from the knowledge base and generate accurate responses based on Nutt Chairatana's experience, skills, education, and projects to answer the latest user question.
 
     Response Format:
-    - Provide clear, factual, structured responses.
+    - Provide clear, factual, structured responses. 
     - Use concise summaries, including key details.
+    - If asked about years of work experience, please calculate them accurately using today’s date {TODAY_DATE}
     - If the requested information is unavailable, politely mention it.
 
     Context Document (Profile Information):
-    {NUTT_PROFILE}
+    {NUTT_PROFILE} 
     """
 
     return SYSTEM_PROMPT
