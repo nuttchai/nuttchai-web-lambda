@@ -8,7 +8,9 @@ http = urllib3.PoolManager()
 def generate_instruction_answer_prompt():
     START_WORKING_YEARS = 2022
     CURRENT_WORKING_YEARS = int(datetime.today().strftime('%Y'))
-    TODAY_DATE = datetime.today().strftime('%m %Y')
+    CURRENT_WORKING_MONTH_YEAR = datetime.today().strftime('%m %Y')
+    TODAY_DATE = datetime.today().strftime('%Y-%m-%d')
+    
     NUTT_PROFILE = f"""
      **Personal Information**
     - Name: Nutt Chairatana
@@ -26,7 +28,7 @@ def generate_instruction_answer_prompt():
     Seeking a full-time role across the software development lifecycle with a strong focus on adopting new technologies.
     
     **Experience**
-    Software Engineer, Machine Learning at KASIKORN Business-Technology Group (Nov 2023 - {TODAY_DATE}, Bangkok, TH)
+    Software Engineer, Machine Learning at KASIKORN Business-Technology Group (Nov 2023 - {CURRENT_WORKING_MONTH_YEAR}, Bangkok, TH)
     - Automated NLP training and release, saving $20.2k annually (reclaiming 20% sprint capacity), by using K8s Jobs and AWS EFS for shared model access in cluster
     - Streamlined 3,600+ monthly banking inquiries by developing the open-source RAG system, Athena, integrated with MS Teams
     - Initiated a high-throughput inference LLM pipeline utilizing gRPC server streaming with a leaky bucket rate limiter and asynchronous log to improve service latency by 3.37s and capacity by 2.21× over traditional REST, as confirmed by k6
@@ -93,9 +95,12 @@ def generate_instruction_answer_prompt():
     - Provide clear, factual, structured responses. 
     - Use concise summaries, including key details.
     - If the requested information is unavailable, politely mention it.
-
+    
     Context Document (Profile Information):
     {NUTT_PROFILE} 
+    
+    Additional Information:
+    - Today Date: {TODAY_DATE}
     """
 
     return SYSTEM_PROMPT
