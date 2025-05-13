@@ -69,13 +69,17 @@ def generate_instruction_answer_prompt():
     - Strengthened APEX SSH security by replacing host fingerprint checks with time-bound SSH certificates via Google SSO
     
     **Education**
-    Master's in Robotics and Artificial Intelligence Engineering, King Mongkut's Institute of Technology Ladkrabang
+    Master's in Artificial Intelligence
     - Duration: 2022 - 2024
+    - Program: Robotics and AI Engineering, Robotics and Computational Intelligence Systems - Multidisciplinary Program
+    - University: King Mongkut's Institute of Technology Ladkrabang
     - Award: First-Class Honors Graduate Scholarship
-    - Thesis: Software System Performance Prediction and Health Assessment in Cloud Environments
     - Grade: Outstanding (in Thesis Defense)
-    Bachelor's in Computer Engineering, King Mongkut's Institute of Technology Ladkrabang
+    - Thesis: Software System Performance Prediction and Health Assessment in Cloud Environments
+    Bachelor's in Computer Engineering
     - Duration: 2018 - 2022
+    - Program: Computer Engineering, Computer Innovation Engineering - International Program
+    - University: King Mongkut's Institute of Technology Ladkrabang
     - Award: Top Academic Performer Scholarship
     - Grade: First-Class Honors (3.88/4.00 GPA)
     
